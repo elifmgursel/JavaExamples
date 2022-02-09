@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class ATM {
+
+	public void calis(Hesap hesap) {
+		
+		Login login = new Login();
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.println("Bankaya hosgeldiniz");
+		
+		System.out.println("*************************");
+		System.out.println("Kullanici Giris");
+		System.out.println("*************************");
+		
+		int giris_hakki =3;
+		
+		while (true) {
+			
+			if (login.login(hesap)) {
+				
+				System.out.println("Giris basarili");
+				break;
+								
+			}
+			
+			else {
+				
+				System.out.println("Giris basarisiz");
+				giris_hakki -=1;
+				System.out.println("kalan hak:" +giris_hakki);
+			}
+			
+			if (giris_hakki == 0 ) {
+				
+				System.out.println("giris hakkin bitti");
+				return;
+			}
+		}
+		
+		
+		
+		
+	}
+	
+}

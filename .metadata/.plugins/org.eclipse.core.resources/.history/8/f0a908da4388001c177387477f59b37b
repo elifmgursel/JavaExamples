@@ -1,0 +1,16 @@
+
+public class StringContainsExample {
+
+	public static void main(String[] args) {
+	
+		String s = "Hello Java";
+		
+		//boolean result = s.contains("Hello Java");
+		
+		boolean result = s.contains("Java");
+		
+		System.out.println(result);
+
+	}
+
+}

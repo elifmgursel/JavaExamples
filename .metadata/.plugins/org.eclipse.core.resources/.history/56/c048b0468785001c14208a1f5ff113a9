@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String [] cars = {"Camaro" , "Corvette" , "Tesla" , "BMW"};
+		
+		
+		
+		System.out.println(cars[0]);
+
+	}
+
+}

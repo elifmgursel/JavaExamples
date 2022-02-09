@@ -1,0 +1,14 @@
+
+public class Account {
+
+	private AccountData data = new AccountData() {
+	
+
+	}
+
+
+
+	public void setBakiye(double d) {
+		// TODO Auto-generated method stub
+		
+	}}

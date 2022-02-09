@@ -1,0 +1,13 @@
+
+public class StirngExample {
+	
+
+	public static void main(String[] args) {
+
+		String s;
+		s = "String in java";
+		System.out.println(s);
+
+	}
+
+}

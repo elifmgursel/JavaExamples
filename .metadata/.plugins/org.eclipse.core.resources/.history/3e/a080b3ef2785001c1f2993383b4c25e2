@@ -1,0 +1,51 @@
+
+public class Main {
+	
+	public static int minus(int a, int b) {
+		
+		return (a-b);
+	}
+	
+	public static double bolme (int a, int b) {
+		
+		return ((double) a / b);
+		
+	}
+
+	public static int toplama (int a, int b) {
+	
+		return (a+b);
+	
+	}
+	
+	public static int toplama (int a, int b, int c) {
+		
+		return (a+b+c);
+		
+	}
+	
+	public static int carpma (int a, int b) {
+		
+		return (a*b);
+		
+	}
+	
+	public static int carpma ( int a, int b, int c) {
+		
+		return (a*b*c);
+				
+	}
+	
+	public static void main(String[] args) {
+		String islemler ="1.Toplama islemi\n"
+						+"2. Cıkarma İslemi\n"
+						+"3.Carpma İslemi\n"
+						+"4. Bolme İslemi\n"
+						+"Cikis icin q'ya basin";
+		
+		System.out.println(islemler);
+		
+
+	}
+
+}

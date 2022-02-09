@@ -1,0 +1,14 @@
+
+public class Car {
+
+	public String color;
+	public int doors;
+	public int wheels;
+	public String motor;
+	public String model;
+	
+		
+
+	}
+
+

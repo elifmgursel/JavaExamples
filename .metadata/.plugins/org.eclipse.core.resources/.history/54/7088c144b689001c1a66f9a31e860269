@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class ATM {
+
+	public void calis(Hesap hesap) {
+		
+		Login login = new Login();
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.println("Bankaya hosgeldiniz");
+		
+		System.out.println("*************************");
+		System.out.println("Kullanici Giris");
+		System.out.println("*************************");
+		
+		int giris_hakki =3;
+		
+		while (true) {
+			
+			if (login.login(hesap)) {
+				
+				
+			}
+		}
+		
+	}
+	
+}
